@@ -1,6 +1,6 @@
 # A simple and modern To-Do List web application.
 
-## Fetures
+## Features
 
 - Add new tasks
 - Mark tasks as completed
