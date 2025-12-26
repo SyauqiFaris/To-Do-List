@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <header>
+    <div class="container">
+        <header class="header">
             <h1 class="title">To-Do List</h1>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
                 <span class="sun-icon">☀️</span>
@@ -21,7 +21,7 @@
                 type="text" 
                 id="taskInput" 
                 class="task-input" 
-                placeholder="Tambahkan task baru..."
+                placeholder="Add New Task..."
                 maxlength="100"
             >
             <button class="add-btn" id="addBtn">Tambah</button>
@@ -32,11 +32,11 @@
         </div>
 
         <ul class="task-list" id="taskList">
-            <!-- Task akan ditambahkan secara dinamis dengan JavaScript -->
+            
         </ul>
 
         <footer class="footer">
-            <p>Tekan Enter untuk menambah task</p>
+            <p>Click Enter to add task</p>
         </footer>
     </div>
 </body>
